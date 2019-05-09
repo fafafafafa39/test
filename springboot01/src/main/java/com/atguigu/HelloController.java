@@ -11,4 +11,12 @@ public class HelloController {
     public String hello(){
         return "Hello World!";
     }
+
+
+    @ResponseBody
+    @RequestMapping("/xixixi")
+    public String xixixi(){
+        return "xixixixix";
+    }
+
 }
